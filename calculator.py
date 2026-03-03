@@ -8,49 +8,47 @@ number2 = []
 
 def c1():
     print("1", end = "")
-    function.append(1)
+    function.append('1')
 
 def c2():
     print("2", end = "")
-    function.append(2)
+    function.append('2')
 
 def c3():
     print("3", end = "")
-    function.append(3)
+    function.append('3')
 
 def c4():
     print("4", end = "")
-    function.append(4)
+    function.append('4')
 
 def c5():
     print("5", end = "")
-    function.append(5)
+    function.append('5')
 
 def c6():
     print("6", end = "")
-    function.append(6)
+    function.append('6')
 
 def c7():
     print("7", end = "")
-    function.append(7)
+    function.append('7')
 
 def c8():
     print("8", end = "")
-    function.append(8)
+    function.append('8')
 
 def c9():
     print("9", end = "")
-    function.append(9)
+    function.append('9')
 
 def plus():
     print (" + ", end = "")
     function.append("+")
 
 def equals():
-    print (" = ")
-    for i in function:
-        
-
+    print (f' = {eval(''.join(function))}')
+    print 
     
 
 button1 = tk.Button(root, text = "  1  ", command = c1)
