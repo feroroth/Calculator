@@ -1,6 +1,7 @@
 import tkinter as tk
 
 root = tk.Tk()
+root.title("calculator")
 
 function = []
 
@@ -110,12 +111,12 @@ button9.grid(row = 3, column = 2)
 equals_button.grid(row = 3, column = 3)
 
 button0 = tk.Button(root, text = "  0  ", command = c0)
-dot_button = tk.Button(root, text = "  ,  ", command = dot)
+dot_button = tk.Button(root, text = "  ,   ", command = dot)
 button0.grid(row = 4, column = 0)
 dot_button.grid(row = 4, column = 1)
 
 # Creating label with text on 1. row
-label = tk.Label(root, text = "Výsledok je v termináli")
-label.grid(row = 0, columnspan = 3)
+label = tk.Label(root, text = "Calculation will be visible in terminal")
+label.grid(row = 0, columnspan = 5)
 
 root.mainloop()
