@@ -74,6 +74,8 @@ def equals():
         print (f" = {eval(''.join(function))}")
     except ZeroDivisionError:
         print (" = Syntax error")
+
+    function.clear()
   
 # creating buttons, each section is different row
 button1 = tk.Button(root, text = "  1  ", command = c1)
