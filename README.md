@@ -1,4 +1,4 @@
-#Simple calculator in python using **tkinter** library
+#Simple calculator written in python using **tkinter** library
 
 I used **tkinter** to build a GUI for my calculator. It's a very simple calculator and my first project. 
 
