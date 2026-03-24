@@ -69,6 +69,10 @@ def dot():
     print (".", end = "")
     function.append(".")
 
+def over():
+    print ("^", end = "")
+    function.append("**")
+
 # do actual calculation using eval command, it breaks list into string and evaluates it
 def equals():
     try:
@@ -105,6 +109,7 @@ button7 = tk.Button(root, text = "  7  ", command = c7)
 button8 = tk.Button(root, text = "  8  ", command = c8)
 button9 = tk.Button(root, text = "  9  ", command = c9)
 equals_button = tk.Button(root, text = " =  ", command = equals)
+tk.Button(root, text = "  ^  ", command = over).grid(row = 3, column = 4)
 button7.grid(row = 3, column = 0)
 button8.grid(row = 3, column = 1)
 button9.grid(row = 3, column = 2)
